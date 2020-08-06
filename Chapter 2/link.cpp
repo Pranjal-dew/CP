@@ -1,54 +1,65 @@
-//Simple C++ implementation of Linked List 
-
 #include<iostream>
 using namespace std;
 
-// Creating Data Type
 struct Node{
 	int data;
 	struct Node *next;
 };
 
-struct Node *head=NULL;// Declaring Head pointer
+struct Node *head=NULL;
 
-void insert_end(int data)
+void insert(int data)
 {
-	//struct node *newNode;
-	//newNode = malloc(sizeof(struct node));
-	struct Node *newNode = new Node;
-	newNode->data = data;
-	newNode->next = NULL;
+	struct Node *newNode=new Node;
+	newNode->data=data;
+	newNode->next=NULL;
 
-	struct Node *temp = head;
-	while(temp->next != NULL)
-  		temp = temp->next;
-	temp->next = newNode;
+	if(head==NULL)
+		head=newNode;
+	else
+	{
+		struct Node *ptr = head;
+		while(ptr->next!=NULL)
+			ptr=ptr->next;
+		ptr->next=newNode;
+	}
+
+
+}
+
+void ndelete()
+{
+	if(head==NULL)
+		cout<<"Data Underflow";
+	else
+	{
+		struct Node *ptr = head;
+		while(ptr->next->next!=NULL)
+			ptr=ptr->next;
+		ptr->next=NULL;
+	}
 }
 
 void display()
 {
 	struct Node *temp = head;
-	//printf("\n\nList elements are - \n");
-	cout<<"\n\nList elements are - \n";
+	cout<<"\nList elements are - \n";
 	while(temp != NULL)
 	{
-	     //printf("%d --->",temp->data);
+	    
 		cout<<temp->data<<" -> ";
-	     temp = temp->next;
+	    temp = temp->next;
 	}
 
 }
 
 int main()
 {
+	insert(1);
 	display();
-	insert_end(1);
+	insert(2);
 	display();
-	insert_end(2);
-	display();
-	insert_end(3);
-	display();
-	insert_end(4);
+	ndelete();
 	display();
 	return 0;
 }
