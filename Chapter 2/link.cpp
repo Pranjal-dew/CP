@@ -11,7 +11,7 @@ struct Node *head=NULL;// Declaring Head pointer
 
 void insert_end(int data)
 {
-	Node new_Node = new Node;// Declaring new_Node varible using user defined data type and putting values
+	struct Node *new_Node = new Node;// Declaring new_Node varible using user defined data type and putting values
 
 	new_Node->data=data;
 	new_Node->next=NULL;
