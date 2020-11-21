@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 	//code
+	//da faq
 	int t; cin>>t;
 	int tmp=t;
 	while(tmp--)
