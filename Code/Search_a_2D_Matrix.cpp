@@ -20,9 +20,12 @@ public:
             if(matrix[midX][midY]==target) 
                 return true;
  
-            if(matrix[midX][midY]<target){
+            if(matrix[midX][midY]<target)
+            {
                 start=mid+1;
-            }else{
+            }
+            else
+            {
                 end=mid-1;
             }
         }
