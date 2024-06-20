@@ -1,0 +1,2 @@
+homework day 5
+Q1. Write LinkedList using struct
