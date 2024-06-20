@@ -1,0 +1,69 @@
+pattern
+
+array
+string
+stack and queue
+searching and sorting
+
+final//
+Time Complexity
+pattern
+stack & Queue theory
+
+
+ y = x
+ function(x) = x
+
+
+Summation Function:
+If f(n) = f1(n) + f2(n) + — + fm(n) and fi(n)≤ fi+1(n) ∀ i=1, 2,–, m,
+then O(f(n)) = O(max(f1(n), f2(n), –, fm(n))).
+
+Logarithmic Function:
+If f(n) = logan and g(n)=logbn,
+then O(f(n))=O(g(n))
+
+Constant Multiplication:
+If f(n) = c.g(n), then O(f(n)) = O(g(n)) in which c is a nonzero constant.
+
+
+Polynomial Function:
+If f(n) = a0 + a1.n + a2.n2 + — + am.nm,
+then O(f(n)) = O(nm).
+
+x^3+x^2
+o(x^3)
+
+cin>>jsadkj = 0(1)
+cot<<kjhsd = 0(1)
+
+for(int i = 0 to n) = 0(n)
+{
+    for(int j=0 to n) = 0(n)
+}
+
+for(int i = 0 to n) = 0(n)
+{
+    
+}
+
+for(int i = 0 to n) = 0(n)
+{
+    for(int i = 0 to n) = 0(n)
+{
+    for(int j=0 to n) = 0(n)
+}
+}
+
+T(1)+T(1) +  T(n)*T(n)
+2*T(1) + T(n^2)
+T(1)+ 
+O(n^2)
+
+// sorting
+sorted array
+
+1 2 3 4 5
+//Searching Algorith
+Linear Search(for loop)
+Binary Search

@@ -1,0 +1,148 @@
+input > uiuiuiuiuiuiui
+output > uiuiuiuiuiuiui
+
+The Basic Idea
+
+'Declaration' makes a variable available throughout a given scope.
+
+'Assignment' gives a variable a specific value at that location in the code. If you attempt to assign a value to a variable that has never been declared in that scope or a parent scope, then the variable is implicitly declared on the global scope (equal to typing window.varName = value).
+'Initialization' is something that happens 'behind the scenes' or 'under the hood', so to speak. At runtime, all declared variables are initialized with a beginning assignment of garbage walvaue
+
+Day 3
+funciton call by value
+function call by reference
+**recursive function -> Dynamic Programming
+
+no predifine function of string is ban
+
+Q1. change every letter so adjacent letter
+in - abc
+out - cbd
+
+xyz
+yza
+
+elephant
+fmfqibou
+
+Q2. print capital latter
+chintu
+CHINTU
+
+Q3. count all the vowel and consonents in a word
+owl
+vowel = 1, consonent = 2
+
+www
+vowel = 0, consonent = 3
+
+Q4. Print the higest number of charter in a word
+in : akash
+a has 2 times
+
+in : necessary
+s has 2 times
+
+in banana
+a has 3 times
+
+civic
+i c
+
+
+//
+Condition 
+and or
+Ternary
+switch, while, do while
+pointer in array
+
+hw 
+break vs continue
+
+
+//q1. Print the letter which is havinf higest number of occurence in a string.
+akash
+a,2
+
+banana
+a,3
+
+pranjal
+a,2
+
+tommrrow
+o,2 m,2 r,2
+
+Q2. Add all the digit in a number.
+112
+4
+
+12345
+15
+
+7878
+30
+
+Q3. add dash between odd number
+
+
+123-345-56
+
+135678
+1-3-5678
+
+
+Q4 Convert lower to upper and upper to lower char in a string using char not number
+Akash1Dew
+aKASH1dEw
+
+Q5. Delete character from 1st string to 2nd string
+input : computer, cap   
+omuter
+
+input : occurence, car
+ouene
+
+Q6. Check if given string are rotation of each other
+
+abcd, cdab
+true
+
+abcd, dcba
+false
+
+xzygh, ghxzy
+true
+
+//
+old
+pattern
+Make queue and stack using array
+
+day 4 hw,
+1. rotation and odd 
+
+day 5
+1. Stack implementation using array
+2. big O, theta and omega
+3. time complexity - The Time Complexity of an algorithm/code is not equal to the actual time required to execute a particular code, but the number of times a statement executes. 
+4. property big o
+5. comparision of big o n, n eyution, log,
+6 linear search and binary search
+7. selection and bubble sort
+
+
+hw
+1. stack function isempty is full,
+2. reverse using stack
+3. 2 stack in one array
+4. implement all function of queue in array
+5. reverse a queue
+7. binary and linear search
+5
+1 2 4 4 5
+5
+output - 4 index
+-1 not found
+8. selection and bubble sort
